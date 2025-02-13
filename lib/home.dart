@@ -31,8 +31,8 @@ class _MyHomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+        tooltip: 'Buscar',
+        child: const Icon(Icons.search),
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: "Inicio"),
